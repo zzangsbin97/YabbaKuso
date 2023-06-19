@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 102, in script call
-    call tutorial
-  File "game/script.rpy", line 88, in script
-    e "엘의회랑 별거아니죠?"
-Exception: Sayer 'e' is not defined.
+  File "game/script.rpy", line 29, in script call
+    call tutorial_bus # 튜토리얼 장면 시작
+  File "game/script.rpy", line 29, in script call
+    call tutorial_bus # 튜토리얼 장면 시작
+ScriptError: could not find label 'tutorial_bus'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 102, in script call
-    call tutorial
-  File "game/script.rpy", line 88, in script
-    e "엘의회랑 별거아니죠?"
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\ast.py", line 890, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\ast.py", line 783, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'e' is not defined.
+  File "game/script.rpy", line 29, in script call
+    call tutorial_bus # 튜토리얼 장면 시작
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\ast.py", line 1725, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 29, in script call
+    call tutorial_bus # 튜토리얼 장면 시작
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\script.py", line 1013, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'tutorial_bus'.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.1.1.23060707
 YabbaKusoDemo_1 1.0
-Mon Jun 19 14:14:39 2023
+Mon Jun 19 15:49:33 2023
