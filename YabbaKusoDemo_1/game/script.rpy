@@ -1,35 +1,17 @@
 ﻿# 이 파일에 게임 스크립트를 입력합니다.
 
-
 # image 문을 사용해 이미지를 정의합니다.
 # image eileen happy = "eileen_happy.png"
 
-
 # 게임에서 사용할 캐릭터를 정의합니다.
-
-
-init python:
-    
-    playername = "롸"
-    p = Character('playername', dynamic = True, color="#8ea5b2")
-    playername = "당신"
-
-#    pth = Character("", color="#ababab") # 캐릭터 생각
-    
-    naration = Character("", color="#64efff")
-
-    heroinename = "???"
-    h = Character('heroinename', dynamic = True, color="#f47fb4") # 히로인 정보
-
-    pr = Character('김석교', color="#93c28e") # 김석교 교수님 정보
+define e = Character('아이린', color="#c8ffc8")
 
 
 # 여기에서부터 게임이 시작합니다.
-
-
 label start:
 
-    call tutorial_bus # 튜토리얼 장면 시작
-    call tutorial_class
+    e "새로운 렌파이 게임을 만들었군요."
+
+    e "이야기와 그림, 음악을 더하면 여러분의 게임을 세상에 배포할 수 있어요!"
 
     return
