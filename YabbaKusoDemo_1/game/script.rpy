@@ -11,15 +11,22 @@ image heroine standard:
     "heroine_beta.png"
     zoom 1.34
 
+image professor standard:
+    "professor_beta"
+    zoom 1.38
+
 init python:
+    
     playername = "롸"
-    player = Character('playername', dynamic = True, color="#8ea5b2")
+    p = Character('playername', dynamic = True, color="#8ea5b2")
     playername = "당신"
     
     naration = Character("", color="#64efff")
 
     heroinename = "???"
-    heroine = Character('heroinename', dynamic = True, color="#f47fb4")
+    h = Character('heroinename', dynamic = True, color="#f47fb4") # 히로인 정보
+
+    pr = Character('김석교', color="#93c28e") # 김석교 교수님 정보
 
 
 # 여기에서부터 게임이 시작합니다.
