@@ -7,19 +7,14 @@
 
 # 게임에서 사용할 캐릭터를 정의합니다.
 
-image heroine standard:
-    "heroine_beta.png"
-    zoom 1.34
-
-image professor standard:
-    "professor_beta"
-    zoom 1.38
 
 init python:
     
     playername = "롸"
     p = Character('playername', dynamic = True, color="#8ea5b2")
     playername = "당신"
+
+#    pth = Character("", color="#ababab") # 캐릭터 생각
     
     naration = Character("", color="#64efff")
 
