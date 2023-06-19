@@ -7,3 +7,9 @@ init python:
     attr = 0 # 매력
     rpt = 0 # 평판
     grd = 0 # 전공지식
+
+
+init python:
+    dissolve1 = Dissolve(1, alpha = True)
+
+define fade = Fade(1.0, 0.0, 1.0)
