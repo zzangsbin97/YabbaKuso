@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/tutorial.rpy", line 111: expected statement.
-    move heroine standard at left
-                          ^
+File "game/scripts/festival.rpy", line 36: expected menuitem
+    call cook
+    ^
+
+File "game/scripts/midterm.rpy", line 2: frame expects a non-empty block.
+    frame:
+          ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Mon Jun 19 15:49:45 2023
+Mon Jun 19 18:10:37 2023
