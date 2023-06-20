@@ -31,7 +31,6 @@ label festival:
 
     p "당연하지"
 
-'''
     menu:
         "요리 부스"
         #call cook
@@ -39,7 +38,6 @@ label festival:
         "장기 자랑"
 
         "구경"
-'''
 
 label cook:
     p "안녕하세요? 아까 연락 드린 23학번 신입생인데요..."
