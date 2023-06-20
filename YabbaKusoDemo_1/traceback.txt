@@ -1,46 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-Compiling ATL code at game/script.rpy:16
-  File "game/script.rpy", line 38, in script call
-    call tutorial_class
-  File "game/tutorial.rpy", line 121, in script
-    show professor standard
-Exception: Could not evaluate expression 's' when compiling ATL.
+While running game code:
+  File "game/script.rpy", line 37, in script call
+    call ending
+  File "game/script.rpy", line 37, in script call
+    call ending
+ScriptError: could not find label 'ending'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 38, in script call
-    call tutorial_class
-  File "game/tutorial.rpy", line 121, in script
-    show professor standard
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\ast.py", line 1428, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\ast.py", line 1391, in show_imspec
-    renpy.config.show(name,
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\exports.py", line 759, in show
-    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\display\core.py", line 1277, in add
-    thing.visit_all(lambda d : None)
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\display\core.py", line 681, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\display\core.py", line 681, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\display\core.py", line 671, in visit_all
-    for d in self.visit():
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\atl.py", line 669, in visit
-    block = self.compile()
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\atl.py", line 573, in compile
-    block = self.atl.compile(self.context)
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\atl.py", line 788, in compile
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\atl.py", line 788, in <listcomp>
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\atl.py", line 1151, in compile
-    raise Exception("Could not evaluate expression %r when compiling ATL." % expr)
-Exception: Could not evaluate expression 's' when compiling ATL.
+  File "game/script.rpy", line 37, in script call
+    call ending
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\ast.py", line 1725, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 37, in script call
+    call ending
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\script.py", line 1013, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'ending'.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.1.1.23060707
 YabbaKusoDemo_1 1.0
-Mon Jun 19 16:50:27 2023
+Tue Jun 20 22:57:06 2023
