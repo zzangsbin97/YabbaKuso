@@ -34,4 +34,6 @@ label start:
 
     call festival
 
+    call ending
+
     return
