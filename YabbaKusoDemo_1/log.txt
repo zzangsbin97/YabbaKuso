@@ -1,113 +1,141 @@
-<<<<<<< HEAD
-Mon Jun 19 18:04:08 2023
+Tue Jun 20 17:51:04 2023
 Windows-10-10.0.22621
-Ren'Py 8.1.1.23060707
- 
-
-Bootstrap to the start of init.init. took 0.03s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.03s
-Loading script. took 0.17s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.05s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\김수빈\\AppData\\Roaming/RenPy/backups\\YabbaKusoDemo_1':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.05s
-Save bytecode. took 0.05s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.21s
-=======
-Mon Jun 19 18:06:19 2023
-Windows-10-10.0.19045
 Ren'Py 8.1.1.23060707
  
 
 Bootstrap to the start of init.init. took 0.09s
 Early init. took 0.00s
-Loader init. took 0.11s
-Loading error handling. took 0.18s
-Loading script. took 2.20s
-Loading save slot metadata. took 0.08s
+Loader init. took 0.10s
+Loading error handling. took 0.08s
+Loading script. took 0.37s
+Loading save slot metadata. took 0.06s
 Loading persistent. took 0.00s
 
-File "game/scripts/festival.rpy", line 36: expected menuitem
-    call cook
-    ^
+File "game/tutorial.rpy", line 12: Line with id tutorial_bus_94919748 appears twice. The other line is game/scripts/tutorial.rpy:12
 
-File "game/scripts/midterm.rpy", line 2: frame expects a non-empty block.
-    frame:
-          ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 2.53s
->>>>>>> KMranch
+File "game/tutorial.rpy", line 19: Line with id tutorial_bus_b39f8c0c appears twice. The other line is game/scripts/tutorial.rpy:19
 
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce 910M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.73'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1736, 976) drawable=(1736, 976)
-Maximum texture size: 4096x4096
-Resetting cache.
-<<<<<<< HEAD
-Bootstrap to the start of init.init. took 112.99s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.03s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.03s
+File "game/tutorial.rpy", line 21: Line with id tutorial_bus_12461f10 appears twice. The other line is game/scripts/tutorial.rpy:21
+
+File "game/tutorial.rpy", line 23: Line with id tutorial_bus_4c3a254a appears twice. The other line is game/scripts/tutorial.rpy:23
+
+File "game/tutorial.rpy", line 25: Line with id tutorial_bus_4fc3e92c appears twice. The other line is game/scripts/tutorial.rpy:25
+
+File "game/tutorial.rpy", line 27: Line with id tutorial_bus_50229e5f appears twice. The other line is game/scripts/tutorial.rpy:27
+
+File "game/tutorial.rpy", line 29: Line with id tutorial_bus_3a5b1638 appears twice. The other line is game/scripts/tutorial.rpy:29
+
+File "game/tutorial.rpy", line 33: Line with id tutorial_bus_c41e632c appears twice. The other line is game/scripts/tutorial.rpy:33
+
+File "game/tutorial.rpy", line 35: Line with id tutorial_bus_8e8f5ea1 appears twice. The other line is game/scripts/tutorial.rpy:35
+
+File "game/tutorial.rpy", line 37: Line with id tutorial_bus_5a3084fe appears twice. The other line is game/scripts/tutorial.rpy:37
+
+File "game/tutorial.rpy", line 39: Line with id tutorial_bus_5ed3338d appears twice. The other line is game/scripts/tutorial.rpy:39
+
+File "game/tutorial.rpy", line 41: Line with id tutorial_bus_245c8f52 appears twice. The other line is game/scripts/tutorial.rpy:41
+
+File "game/tutorial.rpy", line 43: Line with id tutorial_bus_3683b96c appears twice. The other line is game/scripts/tutorial.rpy:43
+
+File "game/tutorial.rpy", line 45: Line with id tutorial_bus_de64a4b0 appears twice. The other line is game/scripts/tutorial.rpy:45
+
+File "game/tutorial.rpy", line 47: Line with id tutorial_bus_7edc5428 appears twice. The other line is game/scripts/tutorial.rpy:47
+
+File "game/tutorial.rpy", line 49: Line with id tutorial_bus_2f4e24c4 appears twice. The other line is game/scripts/tutorial.rpy:49
+
+File "game/tutorial.rpy", line 51: Line with id tutorial_bus_7caa8cea appears twice. The other line is game/scripts/tutorial.rpy:51
+
+File "game/tutorial.rpy", line 53: Line with id tutorial_bus_20b9bed6 appears twice. The other line is game/scripts/tutorial.rpy:53
+
+File "game/tutorial.rpy", line 62: Line with id tutorial_bus_d8cf4e18 appears twice. The other line is game/scripts/tutorial.rpy:62
+
+File "game/tutorial.rpy", line 66: Line with id tutorial_bus_a9f3db60 appears twice. The other line is game/scripts/tutorial.rpy:66
+
+File "game/tutorial.rpy", line 68: Line with id tutorial_bus_c6658d70 appears twice. The other line is game/scripts/tutorial.rpy:68
+
+File "game/tutorial.rpy", line 70: Line with id tutorial_bus_90f44179 appears twice. The other line is game/scripts/tutorial.rpy:70
+
+File "game/tutorial.rpy", line 72: Line with id tutorial_bus_a8233956 appears twice. The other line is game/scripts/tutorial.rpy:72
+
+File "game/tutorial.rpy", line 74: Line with id tutorial_bus_ab53b27e appears twice. The other line is game/scripts/tutorial.rpy:74
+
+File "game/tutorial.rpy", line 76: Line with id tutorial_bus_14205b8f appears twice. The other line is game/scripts/tutorial.rpy:76
+
+File "game/tutorial.rpy", line 78: Line with id tutorial_bus_b99d0f14 appears twice. The other line is game/scripts/tutorial.rpy:78
+
+File "game/tutorial.rpy", line 80: Line with id tutorial_bus_79e6e0a5 appears twice. The other line is game/scripts/tutorial.rpy:80
+
+File "game/tutorial.rpy", line 82: Line with id tutorial_bus_18708737 appears twice. The other line is game/scripts/tutorial.rpy:82
+
+File "game/tutorial.rpy", line 84: Line with id tutorial_bus_7f039ddc appears twice. The other line is game/scripts/tutorial.rpy:84
+
+File "game/tutorial.rpy", line 86: Line with id tutorial_bus_71c4c706 appears twice. The other line is game/scripts/tutorial.rpy:86
+
+File "game/tutorial.rpy", line 88: Line with id tutorial_bus_5a2aff2e appears twice. The other line is game/scripts/tutorial.rpy:88
+
+File "game/tutorial.rpy", line 90: Line with id tutorial_bus_22abfe7a appears twice. The other line is game/scripts/tutorial.rpy:90
+
+File "game/tutorial.rpy", line 92: Line with id tutorial_bus_328876ab appears twice. The other line is game/scripts/tutorial.rpy:92
+
+File "game/tutorial.rpy", line 100: Line with id tutorial_class_e0fe9d0c appears twice. The other line is game/scripts/tutorial.rpy:100
+
+File "game/tutorial.rpy", line 102: Line with id tutorial_class_0c47faf4 appears twice. The other line is game/scripts/tutorial.rpy:102
+
+File "game/tutorial.rpy", line 104: Line with id tutorial_class_ad684532 appears twice. The other line is game/scripts/tutorial.rpy:104
+
+File "game/tutorial.rpy", line 106: Line with id tutorial_class_0a02b7c4 appears twice. The other line is game/scripts/tutorial.rpy:106
+
+File "game/tutorial.rpy", line 110: Line with id tutorial_class_94767b5c appears twice. The other line is game/scripts/tutorial.rpy:110
+
+File "game/tutorial.rpy", line 112: Line with id tutorial_class_e660b2ac appears twice. The other line is game/scripts/tutorial.rpy:112
+
+File "game/tutorial.rpy", line 114: Line with id tutorial_class_84281ac2 appears twice. The other line is game/scripts/tutorial.rpy:114
+
+File "game/tutorial.rpy", line 116: Line with id tutorial_class_3cc62a3b appears twice. The other line is game/scripts/tutorial.rpy:116
+
+File "game/tutorial.rpy", line 120: Line with id tutorial_class_8db28835 appears twice. The other line is game/scripts/tutorial.rpy:120
+
+File "game/tutorial.rpy", line 122: Line with id tutorial_class_83792eb6 appears twice. The other line is game/scripts/tutorial.rpy:122
+
+File "game/tutorial.rpy", line 126: Line with id tutorial_class_3177c491 appears twice. The other line is game/scripts/tutorial.rpy:126
+
+File "game/tutorial.rpy", line 128: Line with id tutorial_class_c9c1fcf6 appears twice. The other line is game/scripts/tutorial.rpy:128
+
+File "game/tutorial.rpy", line 132: Line with id tutorial_class_66380e6f appears twice. The other line is game/scripts/tutorial.rpy:132
+
+File "game/tutorial.rpy", line 136: Line with id tutorial_class_43b69caf appears twice. The other line is game/scripts/tutorial.rpy:136
+
+File "game/tutorial.rpy", line 140: Line with id tutorial_class_0aaf0478 appears twice. The other line is game/scripts/tutorial.rpy:140
+
+File "game/tutorial.rpy", line 142: Line with id tutorial_class_b4c8810c appears twice. The other line is game/scripts/tutorial.rpy:142
+
+File "game/tutorial.rpy", line 146: Line with id tutorial_class_74c653b1 appears twice. The other line is game/scripts/tutorial.rpy:146
+
+File "game/tutorial.rpy", line 148: Line with id tutorial_class_2462b62c appears twice. The other line is game/scripts/tutorial.rpy:148
+
+File "game/tutorial.rpy", line 150: Line with id tutorial_class_58dee8a6 appears twice. The other line is game/scripts/tutorial.rpy:150
+
+File "game/tutorial.rpy", line 152: Line with id tutorial_class_23953bae appears twice. The other line is game/scripts/tutorial.rpy:152
+
+File "game/tutorial.rpy", line 154: Line with id tutorial_class_c0aa620f appears twice. The other line is game/scripts/tutorial.rpy:154
+
+File "game/tutorial.rpy", line 156: Line with id tutorial_class_c9da6b17 appears twice. The other line is game/scripts/tutorial.rpy:156
+
+File "game/tutorial.rpy", line 158: Line with id tutorial_class_abb2f88a appears twice. The other line is game/scripts/tutorial.rpy:158
+
+File "game/tutorial.rpy", line 164: Line with id tutorial_class_5edc4f62 appears twice. The other line is game/scripts/tutorial.rpy:164
+
+File "game/tutorial.rpy", line 166: Line with id tutorial_class_e0269d77 appears twice. The other line is game/scripts/tutorial.rpy:166
+
+File "game/tutorial.rpy", line 172: Line with id tutorial_class_b9cad23d appears twice. The other line is game/scripts/tutorial.rpy:172
+
+File "game/tutorial.rpy", line 174: Line with id tutorial_class_f5ab6d8f appears twice. The other line is game/scripts/tutorial.rpy:174
+
+File "game/tutorial.rpy", line 179: Line with id tutorial_class_47d3b50b appears twice. The other line is game/scripts/tutorial.rpy:179
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.01s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.07s
+Interface start. took 0.30s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -120,22 +148,22 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 142.38s
+Bootstrap to the start of init.init. took 131.96s
 Early init. took 0.00s
 Loader init. took 0.04s
-Loading error handling. took 0.03s
+Loading error handling. took 0.02s
 Loading script. took 0.14s
-Loading save slot metadata. took 0.03s
+Loading save slot metadata. took 1.16s
 Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
+Running init code. took 0.24s
+Loading analysis data. took 0.04s
 Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
+Reloading save slot metadata. took 0.05s
 Index archives took 0.00s
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.08s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.03s
+Initial gc. took 0.04s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -144,11 +172,11 @@ Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
 Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.12s
@@ -164,19 +192,18 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 144.30s
+Bootstrap to the start of init.init. took 140.03s
 Early init. took 0.00s
-Loader init. took 0.03s
+Loader init. took 0.05s
 Loading error handling. took 0.03s
-Loading script. took 0.15s
-Loading save slot metadata. took 0.03s
+Loading script. took 0.16s
+Loading save slot metadata. took 0.04s
 Loading persistent. took 0.00s
 Running init code. took 0.04s
-Loading analysis data. took 0.01s
+Loading analysis data. took 0.03s
 Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.05s
+Reloading save slot metadata. took 0.04s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\김수빈\\AppData\\Roaming/RenPy/backups\\YabbaKusoDemo_1':
 Dump and make backups. took 0.06s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
@@ -188,12 +215,12 @@ Creating interface object. took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.09s
@@ -209,284 +236,64 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 195.00s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.03s
-Loading script. took 0.15s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.10s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\김수빈\\AppData\\Roaming/RenPy/backups\\YabbaKusoDemo_1':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) Iris(R) Plus Graphics'
-Version: b'4.6.0 - Build 30.0.100.9836'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 628.28s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.07s
-Loading script. took 1.14s
-Loading save slot metadata. took 0.13s
-Loading persistent. took 0.00s
-Running init code. took 0.16s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.13s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\김수빈\\AppData\\Roaming/RenPy/backups\\YabbaKusoDemo_1':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.08s
-=======
-Bootstrap to the start of init.init. took 208.53s
+Bootstrap to the start of init.init. took 225.73s
 Early init. took 0.00s
 Loader init. took 0.04s
-Loading error handling. took 0.06s
-Loading script. took 1.55s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/scripts/festival.rpy", line 36: expected menuitem
-    call cook
-    ^
-
-File "game/scripts/midterm.rpy", line 2: frame expects a non-empty block.
-    frame:
-          ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 1.73s
->>>>>>> KMranch
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce 910M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.73'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1736, 976) drawable=(1736, 976)
-Maximum texture size: 4096x4096
-Resetting cache.
-<<<<<<< HEAD
-Bootstrap to the start of init.init. took 689.49s
-=======
-Bootstrap to the start of init.init. took 256.94s
->>>>>>> KMranch
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.06s
-Loading script. took 1.46s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-<<<<<<< HEAD
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\김수빈\\AppData\\Roaming/RenPy/backups\\YabbaKusoDemo_1':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) Iris(R) Plus Graphics'
-Version: b'4.6.0 - Build 30.0.100.9836'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 732.44s
-Early init. took 0.00s
-Loader init. took 0.03s
 Loading error handling. took 0.02s
-Loading script. took 0.14s
+Loading script. took 0.16s
 Loading save slot metadata. took 0.04s
 Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
+Running init code. took 0.05s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.04s
+Index archives took 0.00s
+Dump and make backups. took 0.08s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Plus Graphics'
+Version: b'4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 299.19s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.03s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.05s
+Loading analysis data. took 0.02s
 Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.04s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\김수빈\\AppData\\Roaming/RenPy/backups\\YabbaKusoDemo_1':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.04s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) Iris(R) Plus Graphics'
-Version: b'4.6.0 - Build 30.0.100.9836'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init. took 1027.79s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.15s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\김수빈\\AppData\\Roaming/RenPy/backups\\YabbaKusoDemo_1':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) Iris(R) Plus Graphics'
-Version: b'4.6.0 - Build 30.0.100.9836'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1050.93s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.03s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
+Dump and make backups. took 0.07s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
 Initial gc. took 0.05s
@@ -495,39 +302,25 @@ nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.05s
 Build styles took 0.00s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.16s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.09s
-=======
-
-File "game/scripts/festival.rpy", line 36: expected menuitem
-    call cook
-    ^
-
-File "game/scripts/midterm.rpy", line 2: frame expects a non-empty block.
-    frame:
-          ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 2.09s
->>>>>>> KMranch
+Interface start. took 0.08s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce 910M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.73'
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Plus Graphics'
+Version: b'4.6.0 - Build 30.0.100.9836'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1736, 976) drawable=(1736, 976)
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096

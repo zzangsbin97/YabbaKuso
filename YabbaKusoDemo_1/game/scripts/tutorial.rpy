@@ -93,7 +93,7 @@ label tutorial_bus: # 튜토리얼 버스 장면 시작
 
 label tutorial_class:
 
-    with fade
+#    with fade
 
     scene bg tutorialclass
 
