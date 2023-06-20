@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Mon Jun 19 18:04:08 2023
 Windows-10-10.0.22621
 Ren'Py 8.1.1.23060707
@@ -37,45 +36,18 @@ Save bytecode. took 0.05s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.21s
-=======
-Mon Jun 19 18:06:19 2023
-Windows-10-10.0.19045
-Ren'Py 8.1.1.23060707
- 
-
-Bootstrap to the start of init.init. took 0.09s
-Early init. took 0.00s
-Loader init. took 0.11s
-Loading error handling. took 0.18s
-Loading script. took 2.20s
-Loading save slot metadata. took 0.08s
-Loading persistent. took 0.00s
-
-File "game/scripts/festival.rpy", line 36: expected menuitem
-    call cook
-    ^
-
-File "game/scripts/midterm.rpy", line 2: frame expects a non-empty block.
-    frame:
-          ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 2.53s
->>>>>>> KMranch
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce 910M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.73'
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Plus Graphics'
+Version: b'4.6.0 - Build 30.0.100.9836'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1736, 976) drawable=(1736, 976)
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096
 Resetting cache.
-<<<<<<< HEAD
 Bootstrap to the start of init.init. took 112.99s
 Early init. took 0.00s
 Loader init. took 0.03s
@@ -287,51 +259,25 @@ Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.08s
-=======
-Bootstrap to the start of init.init. took 208.53s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.06s
-Loading script. took 1.55s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/scripts/festival.rpy", line 36: expected menuitem
-    call cook
-    ^
-
-File "game/scripts/midterm.rpy", line 2: frame expects a non-empty block.
-    frame:
-          ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 1.73s
->>>>>>> KMranch
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce 910M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.73'
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Plus Graphics'
+Version: b'4.6.0 - Build 30.0.100.9836'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1736, 976) drawable=(1736, 976)
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096
 Resetting cache.
-<<<<<<< HEAD
 Bootstrap to the start of init.init. took 689.49s
-=======
-Bootstrap to the start of init.init. took 256.94s
->>>>>>> KMranch
 Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.06s
-Loading script. took 1.46s
-Loading save slot metadata. took 0.04s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.15s
+Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
-<<<<<<< HEAD
 Running init code. took 0.04s
 Loading analysis data. took 0.01s
 Analyze and compile ATL. took 0.00s
@@ -506,28 +452,14 @@ Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.09s
-=======
-
-File "game/scripts/festival.rpy", line 36: expected menuitem
-    call cook
-    ^
-
-File "game/scripts/midterm.rpy", line 2: frame expects a non-empty block.
-    frame:
-          ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 2.09s
->>>>>>> KMranch
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce 910M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.73'
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Plus Graphics'
+Version: b'4.6.0 - Build 30.0.100.9836'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1736, 976) drawable=(1736, 976)
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096

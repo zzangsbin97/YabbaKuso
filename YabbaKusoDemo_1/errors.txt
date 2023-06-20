@@ -2,22 +2,9 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
 File "game/tutorial.rpy", line 165: end of line expected.
     hide professor standard and show professor happy at left
                                 ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
 Mon Jun 19 18:03:53 2023
-=======
-File "game/scripts/festival.rpy", line 36: expected menuitem
-    call cook
-    ^
-
-File "game/scripts/midterm.rpy", line 2: frame expects a non-empty block.
-    frame:
-          ^
-
-Ren'Py Version: Ren'Py 8.1.1.23060707
-Mon Jun 19 18:10:37 2023
->>>>>>> KMranch
