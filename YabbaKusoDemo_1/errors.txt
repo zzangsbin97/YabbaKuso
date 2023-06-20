@@ -125,4 +125,4 @@ File "game/tutorial.rpy", line 174: Line with id tutorial_class_f5ab6d8f appears
 File "game/tutorial.rpy", line 179: Line with id tutorial_class_47d3b50b appears twice. The other line is game/scripts/tutorial.rpy:179
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Tue Jun 20 17:51:04 2023
+Tue Jun 20 22:16:33 2023
