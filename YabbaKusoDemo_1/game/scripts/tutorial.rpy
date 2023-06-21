@@ -91,6 +91,8 @@ label tutorial_bus: # 튜토리얼 버스 장면 시작
 
     "나는 언덕을 향해 한걸음 내딛었다."
 
+    return
+
 label tutorial_class:
 
     with fade
