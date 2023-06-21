@@ -29,11 +29,12 @@ init python:
 
 label start:
 
-#    call tutorial_bus # 튜토리얼 장면 시작
-#    call tutorial_class
+    stop music fadeout 1.0
 
-#    call festival
+    call tutorial_bus from _call_tutorial_bus # 튜토리얼 장면 시작
+#   call tutorial_class
+    call festival from _call_festival
 
-    call ending_1
+    call ending_1 from _call_ending_1
 
     return
