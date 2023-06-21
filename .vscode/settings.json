@@ -1,0 +1,201 @@
+{
+    "files.exclude": {
+        "**/*.rpyc": true,
+        "**/*.rpa": true,
+        "**/*.rpymc": true,
+        "**/cache/": true
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "renpy.meta.plain",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "renpy.meta.i",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "renpy.meta.b",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "renpy.meta.u",
+                    "renpy.meta.a"
+                ],
+                "settings": {
+                    "fontStyle": "underline"
+                }
+            },
+            {
+                "scope": "renpy.meta.s",
+                "settings": {
+                    "fontStyle": "strikethrough"
+                }
+            },
+            {
+                "scope": "renpy.meta.i renpy.meta.b",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": "renpy.meta.i renpy.meta.u",
+                "settings": {
+                    "fontStyle": "italic underline"
+                }
+            },
+            {
+                "scope": "renpy.meta.i renpy.meta.s",
+                "settings": {
+                    "fontStyle": "italic strikethrough"
+                }
+            },
+            {
+                "scope": "renpy.meta.b renpy.meta.u",
+                "settings": {
+                    "fontStyle": "bold underline"
+                }
+            },
+            {
+                "scope": "renpy.meta.b renpy.meta.s",
+                "settings": {
+                    "fontStyle": "bold strikethrough"
+                }
+            },
+            {
+                "scope": "renpy.meta.u renpy.meta.s",
+                "settings": {
+                    "fontStyle": "underline strikethrough"
+                }
+            },
+            {
+                "scope": "renpy.meta.i renpy.meta.b renpy.meta.u",
+                "settings": {
+                    "fontStyle": "italic bold underline"
+                }
+            },
+            {
+                "scope": "renpy.meta.i renpy.meta.b renpy.meta.s",
+                "settings": {
+                    "fontStyle": "italic bold strikethrough"
+                }
+            },
+            {
+                "scope": "renpy.meta.i renpy.meta.u renpy.meta.s",
+                "settings": {
+                    "fontStyle": "italic underline strikethrough"
+                }
+            },
+            {
+                "scope": "renpy.meta.b renpy.meta.u renpy.meta.s",
+                "settings": {
+                    "fontStyle": "bold underline strikethrough"
+                }
+            },
+            {
+                "scope": "renpy.meta.i renpy.meta.b renpy.meta.u  renpy.meta.s",
+                "settings": {
+                    "fontStyle": "italic bold underline strikethrough"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.text",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ffc6c6",
+                "settings": {
+                    "foreground": "#ffc6c6"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ff007f",
+                "settings": {
+                    "foreground": "#ff007f"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#12eaff",
+                "settings": {
+                    "foreground": "#12eaff"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#f47fb4",
+                "settings": {
+                    "foreground": "#f47fb4"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ff1212",
+                "settings": {
+                    "foreground": "#ff1212"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#faed7d",
+                "settings": {
+                    "foreground": "#faed7d"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ff48ff",
+                "settings": {
+                    "foreground": "#ff48ff"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ff24ff",
+                "settings": {
+                    "foreground": "#ff24ff"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#f361a6",
+                "settings": {
+                    "foreground": "#f361a6"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ffb2f5",
+                "settings": {
+                    "foreground": "#ffb2f5"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ff85ff",
+                "settings": {
+                    "foreground": "#ff85ff"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ff00dd",
+                "settings": {
+                    "foreground": "#ff00dd"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ffc4ff",
+                "settings": {
+                    "foreground": "#ffc4ff"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#ff97ff",
+                "settings": {
+                    "foreground": "#ff97ff"
+                }
+            }
+        ]
+    }
+}

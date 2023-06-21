@@ -28,7 +28,7 @@ label tutorial_bus: # 튜토리얼 버스 장면 시작
 
     "숨을 뱉으려는 찰나 점점 커지는 발걸음 소리에 뒤를 돌아보니..."
 
-    show mob standard
+    show mob standard with dissolve
 
     "???" "...저기요!"
 
@@ -61,9 +61,9 @@ label tutorial_bus: # 튜토리얼 버스 장면 시작
 
     p "[playername]입니..."
 
-    hide mob standard
+    hide mob standard with dissolve
 
-    "빠앙-"
+    "{color=#FF1212}빠앙-{/color}"
 
     "말을 마치려던 순간 귓가에 큰 소리가 스쳐지나가며 찬물을 얼굴에 끼얹은 듯 정신이 들었다."
 
@@ -73,7 +73,7 @@ label tutorial_bus: # 튜토리얼 버스 장면 시작
 
     "사방을 아무리 둘러봐도 대학교 같은 건물은 보이지 않았다."
 
-    "분명 정류장 이름은 상명대 입구가 맞는데?"
+    "분명 정류장 이름은 \[상명대 입구\]가 맞는데?"
 
     p "...아, 설마."
 
@@ -91,23 +91,19 @@ label tutorial_bus: # 튜토리얼 버스 장면 시작
 
     "나는 언덕을 향해 한걸음 내딛었다."
 
-    return
-
 label tutorial_class:
 
-    with fade
-
-    scene bg tutorialclass
+    scene bg tutorialclass with dissolve
 
     "Tlqkf, 하필 강의실이 4층이라니."
 
-    "가까스로 강의 직전에 도착한 나는 운이 좋겟도 비어있는 뒷자리를 발견했다."
+    "가까스로 강의 직전에 도착한 나는 운이 좋게도 비어있는 뒷자리를 발견했다."
 
     p "저, 여기 자리 있을까요?"
 
     "아예 빈자리는 아니었기에, 옆에 앉아있던 사람에게 말을 걸었다."
 
-    show heroine standard
+    show heroine standard with dissolve
 
     h "아니요, 앉으셔도 돼요."
 
@@ -117,33 +113,33 @@ label tutorial_class:
 
     "이런저런 생각이 꼬리를 물던 중, 교수님이 강의실로 들어오셨다."
 
-    hide heroine standard
+    hide heroine standard with dissolve
 
     "출석을 부르기 시작하는 교수님이 모습은 얼핏보기에도 젊어보이셨다."
 
     "분명 88학번이라고 들었는데 거짓말이었나?"
 
-    show professor standard
+    show professor standard with dissolve
 
     pr "자, 여러분. 난 김석교라고 하고."
 
     "교수님은 챗GPT에서 얻어낸듯한 자기소개를 하기 시작하셨다."
 
-    hide professor standard
+    hide professor standard with dissolve
 
     p "특이한 교수님이네..."
 
-    show heroine smile
+    show heroine smile with dissolve
 
     h "...풋"
 
-    hide heroine standard # 나중에 웃는 이미지 수정 필요
+    hide heroine standard with dissolve# 나중에 웃는 이미지 수정 필요
 
     "생각이 입으로 나온 것일까, 옆에서 설핏 웃는 소리가 들렸다."
 
     "그것도 잠시, 김석교 교수님은 본격적인 OT를 시작하셨다."
 
-    show professor standard at left
+    show professor standard at left with dissolve
 
     pr "(대충 설명)"
 
@@ -161,26 +157,38 @@ label tutorial_class:
 
     $ heroinename = "백소영"
 
-    show heroine nervoussmile at right
+    show heroine nervoussmile at right with dissolve
 
     h "하하... 성적이 조금... "
 
     "바로 옆에서 대답이 들려왔다.\n뭐야 저사람. 나랑 동갑 아니었어?" 
 
-    hide professor standard
+#    hide professor standard 
     
-    show professor happy at left
+    show professor happy at left with dissolve
 
     pr "아니 자네가 출튀를 했잖아. 호의가 계속되면 권리인 줄 안다고."
 
     pr "도망가는 사람들 내가 다 알고있어. 여러분, 출튀는 엄벌이야."
 
-    hide professor happy
-    hide heroine nervoussmile
+    hide professor happy with dissolve
+    hide heroine nervoussmile with dissolve
 
     "교수님의 말씀에 강의실은 웃음바다가 되었다."
 
+    hide heroine nervoussmile with dissolve
+    show professor standard with dissolve
 
+    pr "(대충 끝내는 말)"
+
+    hide professor standard with dissolve
+    hide tutorialclass
+
+    "학기초 새내기의 단순한 실수로 끝낼 수 있는 일이었겠지만"
+
+    "당시의 나는 알지 못했다."
+
+    "{color=#FAED7D}이 강의가 내 인생을 송두리째 바꿔놓을 거라는 걸...{/color}"
 
 
 
