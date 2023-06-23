@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 37, in script call
+  File "game/script.rpy", line 40, in script call
     call ending
-  File "game/script.rpy", line 37, in script call
+  File "game/script.rpy", line 40, in script call
     call ending
 ScriptError: could not find label 'ending'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 37, in script call
+  File "game/script.rpy", line 40, in script call
     call ending
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\ast.py", line 1725, in execute
+  File "C:\Users\user\Desktop\renpy-8.1.1-sdk\renpy\ast.py", line 1725, in execute
     rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 37, in script call
+  File "game/script.rpy", line 40, in script call
     call ending
-  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\script.py", line 1013, in lookup
+  File "C:\Users\user\Desktop\renpy-8.1.1-sdk\renpy\script.py", line 1013, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
 ScriptError: could not find label 'ending'.
 
-Windows-10-10.0.22621 AMD64
+Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.1.23060707
 YabbaKusoDemo_1 1.0
-Tue Jun 20 22:57:06 2023
+Wed Jun 21 21:40:48 2023
