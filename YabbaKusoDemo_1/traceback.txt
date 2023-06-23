@@ -1,26 +1,53 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 40, in script call
-    call ending
-  File "game/script.rpy", line 40, in script call
-    call ending
-ScriptError: could not find label 'ending'.
+  File "game/script.rpy", line 36, in script call
+    call festival from _call_festival
+  File "game/scripts/festival.rpy", line 41, in script
+    p "{color=#FF4848}당연하지!{/color}"
+OSError: Couldn't find file 'festival_1.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 40, in script call
-    call ending
-  File "C:\Users\user\Desktop\renpy-8.1.1-sdk\renpy\ast.py", line 1725, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 40, in script call
-    call ending
-  File "C:\Users\user\Desktop\renpy-8.1.1-sdk\renpy\script.py", line 1013, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'ending'.
+  File "game/script.rpy", line 36, in script call
+    call festival from _call_festival
+  File "game/scripts/festival.rpy", line 41, in script
+    p "{color=#FF4848}당연하지!{/color}"
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\exports.py", line 1473, in say
+    who(what, *args, **kwargs)
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\character.py", line 693, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\display\core.py", line 4099, in interact_core
+    renpy.audio.audio.interact()
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1269, in interact
+    periodic()
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "E:\GameDevRenpy\renpy-8.1.1-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'festival_1.mp3'.
 
-Windows-10-10.0.19045 AMD64
+Windows-10-10.0.22621 AMD64
 Ren'Py 8.1.1.23060707
 YabbaKusoDemo_1 1.0
-Wed Jun 21 21:40:48 2023
+Fri Jun 23 22:44:05 2023

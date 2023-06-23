@@ -7,12 +7,12 @@ image bg tutorialclass: # 튜토리얼 강의실 배경 설정
 
 
 label tutorial_bus: # 튜토리얼 버스 장면 시작
-
-
+    
     naration "{color=#f47fb4} Ch 0. 교수는 다정하고 귀여운 존재라고 생각하던 시기가 저한테도 있었습니다.{/color}"
 
     with fade # 화면 전환 효과 (var 파일에 정의해뒀습니다)
     
+    play music "tutorial_bus.mp3"
 
     scene bg tutorialbusstation # 튜토리얼 버스정류장 사진 가져옴
 
@@ -24,7 +24,7 @@ label tutorial_bus: # 튜토리얼 버스 장면 시작
  
     "잠깐 멈춰서 아직 겨울의 차가움이 가시지 않은 바람을 폐 안에 채워본다."
     
-    "주인공" "흐으읍..."
+    "흐으읍..."
 
     "숨을 뱉으려는 찰나 점점 커지는 발걸음 소리에 뒤를 돌아보니..."
 
@@ -91,7 +91,11 @@ label tutorial_bus: # 튜토리얼 버스 장면 시작
 
     "나는 언덕을 향해 한걸음 내딛었다."
 
+    stop music fadeout 1.5
+
 label tutorial_class:
+
+    play music "tutorial_class.mp3" fadein 1.5
 
     scene bg tutorialclass with dissolve
 
@@ -188,7 +192,9 @@ label tutorial_class:
 
     "당시의 나는 알지 못했다."
 
-    "{color=#FAED7D}이 강의가 내 인생을 송두리째 바꿔놓을 거라는 걸...{/color}"
+    "이날이 내 인생을 송두리째 바꿔놓을 거라는 걸..."
+
+    stop music
 
 
 

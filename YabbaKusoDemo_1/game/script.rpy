@@ -37,6 +37,4 @@ label start:
 
     call ending_1 from _call_ending_1
 
-    call ending
-
     return

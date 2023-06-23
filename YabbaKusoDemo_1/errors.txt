@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 368: text expects a non-empty block.
-    text "[config.name!t]":
-                           ^
+File "game/scripts/ending.rpy", line 64: choice menuitem expects a non-empty block.
+    '"...네"':
+             ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Wed Jun 21 16:04:39 2023
+Fri Jun 23 22:51:26 2023

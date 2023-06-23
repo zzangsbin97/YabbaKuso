@@ -1,10 +1,17 @@
 image bg festival:
     "festival.jpg"
 
+image bg room:
+    "room.jpg"
+    zoom 0.5
+
 define senior = Character("선배", color="#5d5d5d61")
 
 label festival:
+
     scene bg festival with dissolve 
+
+    play music "festival_room.mp3" fadein 1.5
     
     "평소와 같이 등교하는 날."
 
@@ -16,16 +23,18 @@ label festival:
 
     #과방 화면
 
+    scene bg room with dissolve
+
     p "야, 오늘 무슨 날이냐?"
 
-    show mob at right
-    "동기" "...오늘 축제잖아 미친놈아."
+    show mob at right with dissolve
+    "동기" "...오늘 축제날이잖아, 미친놈아."
 
     "오늘이 축제였어?"
 
     "벙찐 표정으로 있자, 동기가 어이없다는 듯 말을 이었다."
 
-    "동기" "다들 음식 팔고, 코스프레하고 다니고 그러는데. 그 정도면 대충 눈치채지 않냐?"
+    "동기" "다들 음식 팔고, 코스프레하고 다니고 그러는데. 어지간한 눈새가 아니고서야 그 정도면 대충 눈치채지 않냐?"
 
     "확실히 코스프레는 본 것 같은데"
 
@@ -35,10 +44,15 @@ label festival:
 
     "그 말에 나는 씨익 웃으며 대답했다."
 
-    p "당연하지"
+    p "{color=#FF4848}당연하지!{/color}"
 
     hide mob
 
+    scene bg festival with dissolve
+
+    stop music fadeout 1.5
+
+    play music "festival_play.mp3" fadein 1.5
     menu:
         "요리 부스":
             jump cook
@@ -178,7 +192,7 @@ label tour:
 
     "익숙한 목소리에 고개를 들어보니 선배가 있었다."
 
-    show heroine_closebigsmile_red at center
+    show heroine maid_nsmile_red at center with dissolve
     h "동기가 하도 사정사정하길래... 하하."
 
     p "선배가 축제 참여하실 줄 몰랐어요. 그러니까..."
@@ -195,6 +209,8 @@ label tour:
 label goodChoice:
     p "학과 활동 열심히 하시네요! 이럴 줄 알았으면 저도 요리나 했어야 했나..."
 
+    show heroine maid_smile_red with dissolve
+
     h "나도 작년엔 구경만 했었거든...이렇게라도 참여하는게 좋을 것 같더라고."
 
     h "자, 오므라이스에 그림이나 그려줄게. 뭐 그려줄까?"
@@ -205,20 +221,39 @@ label goodChoice:
 
     p "와... 귀엽다."
 
-    "선배의 오므라이스를 먹은 나는"
+    "선배의 오므라이스를 먹은 나는 의지로 가득찼다."
 
-    "의지로 가득찼다."
+    "{color=#FFB2F5}\"백소영\" 호감도가 20 증가하였습니다.{/color}"
+
+    "{color=#FFB2F5}\"백소영\"의 현재 호감도는 30입니다.{/color}"
+
+    hide heroine maid_nsmile_red
+
+    hide heroine standard with dissolve
+
+    hide heroine smile with dissolve
+
+    stop music fadeout 1.5
 
     jump festival_done
 
 label badChoice:
     p "완전 잘 어울리세요!"
-    
+
+    show heroine_nervous at center with dissolve
+
     h "...그거 칭찬 맞지?"
 
-    hide heroine_closebigsmile_red
-    show heroine_nervous at standard
     "앗! 화제가 그리 달갑진 않은 모양이다. 선배 표정이 구려졌다."
+
+    "{color=#FFB2F5}\"백소영\" 호감도가 20 감소하였습니다.{/color}"
+
+    "{color=#FFB2F5}\"백소영\"의 현재 호감도는 10입니다.{/color}"
+    
+
+    hide heroine_closebigsmile_red
+
+    hide heroine_nervous
 
     jump festival_done
 

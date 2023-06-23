@@ -33,6 +33,12 @@ image heroine closebigsmile:
 image heroine closebigsmile_red:
     "heroine_closebigsmile_red"
 
+image heroine maid_nsmile_red:
+    "maid_nsmile_red.png"
+
+image heroine maid_smile_red:
+    "maid_smile_red.png"
+
 # 김석교 교수 이미지 정의
 
 image professor standard:
